@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="topo">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="Cadastro.html">Cadastro</a>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="imagem">
+            <img src="icon.jpg" alt="icone">
+            <h3 id="nome">Nome do Fulano</h3>
+        </div>
+        <h1>Bem vindo ao meu sistema</h1>
+    </div>
+    <script>
+        var nome = prompt('Qual seu nome?')
+        document.getElementById('nome').innerHTML = nome
+    </script>
+</body>
+</html>

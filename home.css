@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.topo{
+    display: flex;
+    justify-content: end;
+    background-color: rgb(50, 50, 179);
+    padding: 10px;
+
+}
+
+.topo nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.topo nav a:hover{
+    color: blue;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+}
+
+.imagem{
+    margin:10px;
+    background-color: rgb(114, 239, 255);
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+h1{
+    color: blue;
+    padding-top: 50px;
+    padding-left: 500px;
+
+}
+
+.imagem img{
+    border-radius: 50%;
+    border: 5px black solid;
+}
